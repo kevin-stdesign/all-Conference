@@ -1,11 +1,11 @@
-@media(max-width:1199.98px){
-    .container{
+@media(max-width:1199.98px) {
+    .container {
         max-width: 960px;
     }
 }
 
-@media(max-width:991.98px){
-    .container{
+@media(max-width:991.98px) {
+    .container {
         max-width: 720px;
     }
 
@@ -13,26 +13,101 @@
         height: 40px;
         justify-content: start;
     }
-    .blog-detail{
+
+    .blog-detail {
         flex-direction: column;
     }
-    .blog-detail .main-detail{
+
+    .blog-detail .main-detail {
         padding: 0;
         width: 100%;
     }
-    .other-detail{
+
+    .other-detail {
         width: 100%;
     }
 }
 
-@media(max-width:767.98px){
-    .container{
+@media(max-width:767.98px) {
+    .container {
         max-width: 540px;
+    }
+
+    .blog-detail .title {
+        font-size: 24px;
+    }
+
+    .blog-detail .discription h2 {
+        font-size: 18px;
+        line-height: normal;
+    }
+
+    .blog-detail .blog-author img {
+        width: 72px;
+    }
+
+    .blog-detail .blog-author p {
+        line-height: normal;
+    }
+
+    .blog-detail .blog-author .author-name {
+        margin-bottom: 8px;
+    }
+
+    .posts-leave-comment .form-group {
+        margin-bottom: 18px;
     }
 }
 
-@media(max-width:575.98px){
-    .container{
+@media(max-width:575.98px) {
+    .container {
         max-width: 100%;
+    }
+
+    .blog-detail .title {
+        font-size: 20px;
+    }
+
+    .blog-detail {
+        margin: 42px 0;
+    }
+
+    .blog-detail .discription p {
+        line-height: 130%;
+    }
+
+    .blog-detail .bg-border p {
+        font-size: 14px;
+    }
+
+    .blog-detail .tags {
+        margin: 24px 0;
+    }
+
+    .blog-detail .share-comment {
+        margin-bottom: 24px;
+    }
+
+    .blog-detail .share-comment .comment::after {
+        margin: 4px 10px 0 10px;
+    }
+
+    .blog-detail .blog-author {
+        flex-direction: column;
+    }
+
+    .blog-detail .next-prev-post {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .blog-detail .next-prev-post div {
+        width: 100%;
+        text-align: center !important;
+    }
+
+    .blog-detail .bg-border {
+        border-left: 2px solid var(--primery);
+        padding: 10px 12px 10px 12px;
     }
 }
