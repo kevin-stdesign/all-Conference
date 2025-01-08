@@ -13,6 +13,16 @@
         height: 40px;
         justify-content: start;
     }
+    .blog-detail{
+        flex-direction: column;
+    }
+    .blog-detail .main-detail{
+        padding: 0;
+        width: 100%;
+    }
+    .other-detail{
+        width: 100%;
+    }
 }
 
 @media(max-width:767.98px){
@@ -21,16 +31,8 @@
     }
 }
 
-@media(max-width:567.98px){
+@media(max-width:575.98px){
     .container{
         max-width: 100%;
     }
-}
-
-@media(max-width:479.98px){
-    
-}
-
-@media(max-width:374.98px){
-    
 }
