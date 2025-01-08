@@ -2,26 +2,11 @@
     .container {
         max-width: 960px;
     }
-
-    .blog-right-site-card {
-        max-width: 303px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        justify-content: start;
-        gap: 10px;
-    }
 }
 
 @media(max-width:991.98px) {
     .container {
         max-width: 720px;
-    }
-
-    .site-logo-div {
-        max-width: 230px;
-        padding: 20px 0;
     }
 
     .main-header ul li a {
@@ -38,38 +23,8 @@
         width: 100%;
     }
 
-    .blog-crad {
-        flex-direction: column;
-    }
-
-    .blog-right-site-card {
-        max-width: 100%;
-        width: 100%;
-        flex-direction: row;
-    }
-
     .other-detail {
         width: 100%;
-    }
-    
-    .slider-card-heading a {
-        font-size: 18px;
-    }
-
-    .blog-card-div h2 {
-        line-height: 18px;
-    }
-
-    .footer-social-media-div ul li a span {
-        display: none;
-    }
-
-    .footer-form-title h4 {
-        font-size: 28px;
-    }
-
-    .footer-form-title p {
-        margin-bottom: 15px;
     }
 }
 
@@ -155,66 +110,4 @@
         border-left: 2px solid var(--primery);
         padding: 10px 12px 10px 12px;
     }
-
-    .blog-sub-div h3 a {
-        font-size: 13px;
-    }
-
-    .footer-form-title p {
-        font-size: 14px;
-    }
-    
-    .container{
-        max-width: 100%;
-    }
-
-    .slider-card-heading a {
-        font-size: 16px;
-    }
-
-    .blog-card-div {
-        height: 270px;
-    }
-
-    .blog-sub-div {
-        height: 200px;
-    }
-
-    .blog-sub-div h3 {
-        line-height: 15px;
-    }
-
-    .footer-form-title {
-        padding: 40px 12px;
-        background-color: #f7f7f7;
-    }
-
-    form.subscribe-form {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .subscribe-form div{
-        max-width:100%;
-        width: 100%;
-    }
-
-    form .btn-primary {
-        width: 100%;
-    }
-
-    .subscribe-form {
-        gap: 20px;
-    }
-
-    .all-blog-section {
-        padding: 40px 0;
-    }
-
-    .all-blog-card {
-        grid-template-columns: repeat(1, 5fr);
-        gap: 20px;
-    }
-
 }
-
