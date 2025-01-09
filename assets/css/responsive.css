@@ -135,6 +135,10 @@
     .main-header .navbar-nav {
         padding-top: 10px;
     }
+
+    .all-blog-card {
+        width: 100%;
+    }
 }
 
 @media(max-width:767.98px) {
@@ -282,6 +286,22 @@
 
     .blog-div {
         max-width: 100%;
+    }
+
+    .lates-blog-slider .swiper-button-next,
+    .lates-blog-slider .swiper-button-prev {
+        width: 30px;
+        height: 30px;
+    }
+
+    .lates-blog-slider .swiper-button-next i,
+    .lates-blog-slider .swiper-button-prev i {
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .blog-sub-div h3 {
+        padding: 0 11px;
     }
 
 }
