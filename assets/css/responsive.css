@@ -50,6 +50,7 @@
 
     .other-detail {
         width: 100%;
+        margin-top: 48px;
     }
     
     .slider-card-heading a {
@@ -71,6 +72,7 @@
     .footer-form-title p {
         margin-bottom: 15px;
     }
+
 }
 
 @media(max-width:767.98px) {
@@ -216,5 +218,23 @@
         gap: 20px;
     }
 
+    .blog-detail .right-squer-ads,
+    .blog-detail .blog-search,
+    .blog-detail .keep-in-touch{
+        margin-bottom: 24px;
+    }
+
+    .posts-leave-comment h4, .releted-posts h4{
+        margin-bottom: 14px;
+    }
+
+    .blog-detail .small-card{
+        gap: 12px;
+    }
+    .blog-detail .small-card .post-img {
+        width: 82px;
+        min-width: 82px;
+        height: 60px;
+    }
 }
 
