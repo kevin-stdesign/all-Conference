@@ -40,6 +40,7 @@
 
     .blog-crad {
         flex-direction: column;
+        gap: 10px;
     }
 
     .blog-right-site-card {
@@ -52,7 +53,7 @@
         width: 100%;
         margin-top: 48px;
     }
-    
+
     .slider-card-heading a {
         font-size: 18px;
     }
@@ -73,6 +74,67 @@
         margin-bottom: 15px;
     }
 
+    .offcanvas-body {
+        padding: 20px 0 0 0;
+    }
+
+    .main-header .offcanvas {
+        width: 277px;
+    }
+
+    .main-header ul li:hover ul.dropdown-menu {
+        border-radius: 0;
+        left: 0px;
+        width: 100%;
+    }
+
+    .all-blog-section {
+        padding: 40px 0;
+    }
+
+    .lates-blog-slider .swiper-button-next,
+    .lates-blog-slider .swiper-button-prev {
+        opacity: 0.7;
+    }
+
+    .main-header .offcanvas-backdrop.show {
+        opacity: 0.75;
+    }
+
+    .mobile-responcive-logo {
+        display: block;
+        height: 50px;
+        width: 90%;
+    }
+
+    .main-header .offcanvas-header {
+        padding: 0;
+    }
+
+    .main-header button.btn-close {
+        position: absolute;
+        top: 32px;
+        left: 290px;
+        color: black;
+        opacity: 1;
+        background-color: white;
+        border-radius: 100%;
+        font-size: 12px;
+        background-image: none;
+        font-weight: 700;
+    }
+
+    .main-header .toggle-btn {
+        box-shadow: none;
+        border: none;
+        font-size: 16px;
+        color: black;
+        opacity: 1;
+    }
+
+    .main-header .navbar-nav {
+        padding-top: 10px;
+    }
 }
 
 @media(max-width:767.98px) {
@@ -165,8 +227,8 @@
     .footer-form-title p {
         font-size: 14px;
     }
-    
-    .container{
+
+    .container {
         max-width: 100%;
     }
 
@@ -196,8 +258,8 @@
         width: 100%;
     }
 
-    .subscribe-form div{
-        max-width:100%;
+    .subscribe-form div {
+        max-width: 100%;
         width: 100%;
     }
 
@@ -215,26 +277,11 @@
 
     .all-blog-card {
         grid-template-columns: repeat(1, 5fr);
-        gap: 20px;
+        gap: 30px;
     }
 
-    .blog-detail .right-squer-ads,
-    .blog-detail .blog-search,
-    .blog-detail .keep-in-touch{
-        margin-bottom: 24px;
+    .blog-div {
+        max-width: 100%;
     }
 
-    .posts-leave-comment h4, .releted-posts h4{
-        margin-bottom: 14px;
-    }
-
-    .blog-detail .small-card{
-        gap: 12px;
-    }
-    .blog-detail .small-card .post-img {
-        width: 82px;
-        min-width: 82px;
-        height: 60px;
-    }
 }
-
