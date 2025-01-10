@@ -1304,13 +1304,21 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .blog-detail .keep-in-touch .title {
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 .keep-in-touch-tabs button{
     background-color: snow;
     padding: 0;
+}
+
+.keep-in-touch-tabs.keep-in-touch .title {
+    margin-bottom: 0;
+}
+
+.blog-detail .keep-in-touch.keep-in-touch-tabs h3 {
+    font-size: 12px;
 }
 
 .keep-in-touch-tabs button.active {
