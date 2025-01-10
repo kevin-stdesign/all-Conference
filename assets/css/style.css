@@ -148,6 +148,7 @@ img {
     transform: scalex(0);
 }
 
+
 .search-icon{
     cursor: pointer;
 }
@@ -1303,8 +1304,21 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .blog-detail .keep-in-touch .title {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.keep-in-touch-tabs button{
+    background-color: snow;
+    padding: 0;
+}
+
+.keep-in-touch-tabs button.active {
+    background-color: transparent !important;
+}
+
+.keep-in-touch-tabs button.active h3{
+    background-color:rgb(0 188 213) ;
 }
 
 .blog-detail .keep-in-touch h3 {
