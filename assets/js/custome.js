@@ -9,3 +9,7 @@ var swiper = new Swiper(".mySwiper.lates-blog-slider", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+  $(".search-icon").click(function(){
+    $(".srarch-form").toggleClass("display-show");
+  });

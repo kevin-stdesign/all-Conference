@@ -27,75 +27,80 @@
 </head>
 <body>
     <header class="main-header">
-        <div class="container">
-            <div class="site-logo-div">
-                <img src="assets/img/site-logo.png" alt="">
-            </div>
-        </div>
         <div class="container-fluid">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler toggle-btn" type="button" data-bs-toggle="offcanvas"
-                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
-                            aria-labelledby="offcanvasNavbarLabel">
-                            <div class="offcanvas-header">
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
-                                </button>
-                            </div>
-                            <div class="offcanvas-body">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link " aria-current="page" href="#">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active" href="#">Blog</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Add Event</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Subscribe</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact Us</a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            Upcoming Conferences
-                                            <i class="fa-solid fa-angle-down"></i>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Engineering</a></li>
-                                            <li><a class="dropdown-item" href="#">Education</a></li>
-                                            <li><a class="dropdown-item" href="#">Business and Economics</a></li>
-                                            <li><a class="dropdown-item" href="#">Health and Medicine</a></li>
-                                            <li><a class="dropdown-item" href="#">Interdisciplinary</a></li>
-                                            <li><a class="dropdown-item" href="#">Mathematics and Statistics</a></li>
-                                            <li><a class="dropdown-item" href="#">Social Sciences and Humanities</a>
-                                            </li>
-                                            <li><a class="dropdown-item" href="#">Physical and Life Sciences</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <div class="site-logo-div">
+                            <img src="assets/img/site-logo.png" alt="">
                         </div>
-                        <div class="social-media-div">
-                            <ul>
-                                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
-                                <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    </a>
+                    <button class="navbar-toggler toggle-btn" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <h5><i class="fa-solid fa-bars"></i></h5>
+                    </button>
+
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close fa-solid fa-x" data-bs-dismiss="offcanvas"
+                                aria-label="Close">
+                            </button>
+                        </div>
+                        <div class="offcanvas-body main-header-ul">
+                            <img class="mobile-responcive-logo" src="assets/img/site-logo.png" alt="">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="blog-detail.html">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Add Event</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Subscribe</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact Us</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Upcoming Conferences
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Engineering</a></li>
+                                        <li><a class="dropdown-item" href="#">Education</a></li>
+                                        <li><a class="dropdown-item" href="#">Business and Economics</a></li>
+                                        <li><a class="dropdown-item" href="#">Health and Medicine</a></li>
+                                        <li><a class="dropdown-item" href="#">Interdisciplinary</a></li>
+                                        <li><a class="dropdown-item" href="#">Mathematics and Statistics</a></li>
+                                        <li><a class="dropdown-item" href="#">Social Sciences and Humanities</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Physical and Life Sciences</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </div>
                     </div>
-                </nav>
-            </div>
+                    <div class="social-media-div">
+                        <ul>
+                            <!-- <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li> -->
+                            <li class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></li>
+                        </ul>
+                        <div class="srarch-form">
+                            <input type="text" id="" value="" name="" class="form-control" placeholder="Search...">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
         </div>
     </header>
     <div class="container">
@@ -258,7 +263,7 @@
                                 </p>
                             </div>
                             <div class="col-12 text-center">
-                                <button type="submit" class="btn btn-light mx-auto">Submit</button>
+                                <button type="submit" class="btn btn-primary mx-auto">Submit</button>
                             </div>
                         </div>
                     </form>
@@ -267,41 +272,57 @@
             <div class="other-detail">
                 <div class="other-detail-content">
                     <div class="blog-search">
-                        <input type="search" class="form-control" name="searchBlog" id="searchBlog" placeholder="Type and hit enter...">
+                        <input type="search" class="form-control" name="searchBlog" id="searchBlog"
+                            placeholder="Type and hit enter...">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
                     <div class="keep-in-touch">
                         <div class="title">
-                            <h3>Keep in touch</h3>
+                            <h3>Subscribe</h3>
                         </div>
-                        <div class="row gx-2">
+                        <!-- <div class="row gx-2">
                             <div class="col-6">
-                                <a href="#" class="touch-link"><span><i class="fa-brands fa-facebook-f"></i></span>Facebook</a>
+                                <a href="#" class="touch-link"><span><i
+                                            class="fa-brands fa-facebook-f"></i></span>Facebook</a>
                             </div>
                             <div class="col-6">
-                                <a href="#" class="touch-link"><span><i class="fa-brands fa-x-twitter"></i></span>Twitter</a>
+                                <a href="#" class="touch-link"><span><i
+                                            class="fa-brands fa-x-twitter"></i></span>Twitter</a>
                             </div>
                             <div class="col-6">
-                                <a href="#" class="touch-link"><span><i class="fa-brands fa-instagram"></i></span>instagram</a>
+                                <a href="#" class="touch-link"><span><i
+                                            class="fa-brands fa-instagram"></i></span>instagram</a>
                             </div>
                             <div class="col-6">
-                                <a href="#" class="touch-link"><span><i class="fa-brands fa-youtube"></i></span>youtube</a>
+                                <a href="#" class="touch-link"><span><i
+                                            class="fa-brands fa-youtube"></i></span>youtube</a>
                             </div>
                             <div class="col-6">
-                                <a href="#" class="touch-link"><span><i class="fa-brands fa-square-snapchat"></i></span>snapchat</a>
+                                <a href="#" class="touch-link"><span><i
+                                            class="fa-brands fa-square-snapchat"></i></span>snapchat</a>
                             </div>
                             <div class="col-6">
-                                <a href="#" class="touch-link"><span><i class="fa-brands fa-twitch"></i></span>twitch</a>
+                                <a href="#" class="touch-link"><span><i
+                                            class="fa-brands fa-twitch"></i></span>twitch</a>
                             </div>
                             <div class="col-6">
-                                <a href="#" class="touch-link"><span><i class="fa-solid fa-rss"></i></span>rss</a>
+                                <a href="#" class="touch-link"><span><i
+                                            class="fa-solid fa-rss"></i></span>rss</a>
                             </div>
-                        </div>
+                        </div> -->
+                        <form action="" class="subscribe-form">
+                            <div class="input-emai-div">
+                                <input type="email" value="" id="" placeholder="Email...">
+                            </div>
+                            <div class="btn-main-div">
+                                <button class=" btn btn-primary">subscribe</button>
+                            </div>
+                        </form>
                     </div>
-                    <a href="#" class="right-squer-ads">
+                    <!-- <a href="#" class="right-squer-ads">
                         <img src="assets/img/s-5.jpg" alt="Banner Add">
                         <span>Banner ads</span>
-                    </a>
+                    </a> -->
                     <div class="keep-in-touch">
                         <div class="title">
                             <h3>Recent Posts</h3>
@@ -309,44 +330,90 @@
                         <div class="small-card">
                             <a href="#" class="post-img"><img src="assets/img/s-1.jpg" alt="Post Image"></a>
                             <div>
-                                <a href="#" class="post-title">Facebook’s New “Memories” Page Highlights Engaging Posts from the end</a>
+                                <a href="#" class="post-title">Facebook’s New “Memories” Page Highlights
+                                    Engaging Posts from the end</a>
                                 <p>August 30, 2018</p>
                             </div>
                         </div>
                         <div class="small-card">
                             <a href="#" class="post-img"><img src="assets/img/s-2.jpg" alt="Post Image"></a>
                             <div>
-                                <a href="#" class="post-title">Facebook’s New “Memories” Page Highlights Engaging Posts from the end</a>
+                                <a href="#" class="post-title">Facebook’s New “Memories” Page Highlights
+                                    Engaging Posts from the end</a>
                                 <p>August 30, 2018</p>
                             </div>
                         </div>
                         <div class="small-card">
                             <a href="#" class="post-img"><img src="assets/img/s-3.jpg" alt="Post Image"></a>
                             <div>
-                                <a href="#" class="post-title">Facebook’s New “Memories” Page Highlights Engaging Posts from the end</a>
+                                <a href="#" class="post-title">Facebook’s New “Memories” Page Highlights
+                                    Engaging Posts from the end</a>
                                 <p>August 30, 2018</p>
                             </div>
                         </div>
                         <div class="small-card">
                             <a href="#" class="post-img"><img src="assets/img/s-4.jpg" alt="Post Image"></a>
                             <div>
-                                <a href="#" class="post-title">Facebook’s New “Memories” Page Highlights Engaging Posts from the end</a>
+                                <a href="#" class="post-title">Facebook’s New “Memories” Page Highlights
+                                    Engaging Posts from the end</a>
                                 <p>August 30, 2018</p>
                             </div>
                         </div>
                         <div class="small-card">
                             <a href="#" class="post-img"><img src="assets/img/s-5.jpg" alt="Post Image"></a>
                             <div>
-                                <a href="#" class="post-title">Facebook’s New “Memories” Page Highlights Engaging Posts from the end</a>
+                                <a href="#" class="post-title">Facebook’s New “Memories” Page Highlights
+                                    Engaging Posts from the end</a>
                                 <p>August 30, 2018</p>
                             </div>
                         </div>
                     </div>
-                    <div class="keep-in-touch">
+                    <!-- <div class="keep-in-touch">
                         <div class="title">
                             <h3>Latest Video</h3>
                         </div>
-                        <iframe class="latest-video" src="https://www.youtube.com/embed/D0UnqGm_miA?si=DCZ65cwfCgkuOXz-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe class="latest-video"
+                            src="https://www.youtube.com/embed/D0UnqGm_miA?si=DCZ65cwfCgkuOXz-"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div> -->
+                    <div class="keep-in-touch">
+                        <div class="title">
+                            <h3>popular posts</h3>
+                        </div>
+                        <div class="small-card">
+                            <a href="#" class="post-img"><img src="assets/img/s-1.jpg" alt="Post Image"></a>
+                            <div>
+                                <a href="#" class="post-title">Facebook’s New “Memories” Page Highlights
+                                    Engaging Posts from the end</a>
+                                <p>August 30, 2018</p>
+                            </div>
+                        </div>
+                        <div class="small-card">
+                            <a href="#" class="post-img"><img src="assets/img/s-2.jpg" alt="Post Image"></a>
+                            <div>
+                                <a href="#" class="post-title">Facebook’s New “Memories” Page Highlights
+                                    Engaging Posts from the end</a>
+                                <p>August 30, 2018</p>
+                            </div>
+                        </div>
+                        <div class="small-card">
+                            <a href="#" class="post-img"><img src="assets/img/s-3.jpg" alt="Post Image"></a>
+                            <div>
+                                <a href="#" class="post-title">Facebook’s New “Memories” Page Highlights
+                                    Engaging Posts from the end</a>
+                                <p>August 30, 2018</p>
+                            </div>
+                        </div>
+                        <div class="small-card">
+                            <a href="#" class="post-img"><img src="assets/img/s-4.jpg" alt="Post Image"></a>
+                            <div>
+                                <a href="#" class="post-title">Facebook’s New “Memories” Page Highlights
+                                    Engaging Posts from the end</a>
+                                <p>August 30, 2018</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="keep-in-touch">
                         <div class="title">
@@ -361,6 +428,78 @@
             </div>
         </div>
     </div> 
+    <footer class="footer">
+        <div class="footer-form-title">
+            <h4>Subscribe Newsletter</h4>
+            <p>Subscribe my Newsletter for new blog posts, tips & new photos. Let's stay updated!</p>
+            <form action="" class="subscribe-form">
+                <div class="input-emai-div">
+                    <input type="email" value="" id="" placeholder="Email...">
+                </div>
+                <div>
+                    <button class=" btn btn-primary">subscribe</button>
+                </div>
+            </form>
+        </div>
+        <div class="footer-main-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="footer-logo">
+                            <img src="assets/img/site-logo.png" alt="">
+                            <p class="text-p-footer">s a perfect choice for people who want a fast and clean website,
+                                experience to our users.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 content-footer">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Upcoming Conferences</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 content-footer">
+                        <h4>Top Venues</h4>
+                        <ul>
+                            <li><a href="">USA</a></li>
+                            <li><a href="">CANADA</a></li>
+                            <li><a href="">DUBAI</a></li>
+                            <li><a href="">SINGAPORE</a></li>
+                            <li><a href="">MALAYSIA</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 content-footer">
+                        <h4>Top Categories</h4>
+                        <ul>
+                            <li><a href="">ENGINEERING</a></li>
+                            <li><a href="">MEDICINE</a></li>
+                            <li><a href="">EDUCATION</a></li>
+                            <li><a href="">BUSINESS</a></li>
+                            <li><a href="">INTERDISCIPLINARY</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="copy-right-text">@2025 - All Right Reserved. Designed and Developed by <a
+                    href="">allconferencealert</a>
+            </p>
+        </div>
+        <!-- <div class="footer-social-media-div">
+            <div class="container">
+                <ul>
+                    <li><a href=""><i class="fa-brands fa-facebook-f"></i><span>Facebook</span></a></li>
+                    <li><a href=""><i class="fa-brands fa-x-twitter"></i></i><span>Twitter</span></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i><span>Instagram</span></a></li>
+                    <li><a href=""><i class="fa-brands fa-youtube"></i><span>Youtube</span></a></li>
+                </ul>
+                <p class="copy-right-text">@2025 - All Right Reserved. Designed and Developed by <a
+                        href="">allconferencealert</a>
+                </p>
+            </div>
+        </div> -->
+    </footer>
 </body>
 
 <script src="assets/plugin/jQuery.js"></script>
