@@ -177,6 +177,10 @@
         position: absolute;
         top: 32px;
     }
+
+    .srarch-form {
+        top: 6px;
+    }
 }
 
 @media(max-width:767.98px) {

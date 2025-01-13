@@ -63,9 +63,6 @@ img {
     display: none;
 }
 
-.main-header-ul>ul {
-    margin-left: 50px;
-}
 
 .main-header ul li a {
     display: flex;
@@ -143,8 +140,8 @@ img {
     width: 100%;
     position: absolute;
     z-index: 2;
-    right: 23px;
-    top: 16px;
+    right: 30px;
+    top: 11px;
     transition: 0.2s all ease;
     transform-origin: right;
     transform: scalex(0);
