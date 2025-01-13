@@ -172,6 +172,11 @@
     .keep-in-touch-subscribe-form{
         display: none;
     }
+
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute;
+        top: 32px;
+    }
 }
 
 @media(max-width:767.98px) {
