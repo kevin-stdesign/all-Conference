@@ -389,6 +389,11 @@
         font-size: 17px;
         padding: 0px 21px;
     }
+
+    .main-header .search-icon i {
+        margin-left: 0px;
+        font-size: 18px;
+    }
 }
 
 @media(max-width:360px){
