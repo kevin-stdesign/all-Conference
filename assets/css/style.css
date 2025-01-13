@@ -68,7 +68,6 @@ img {
 }
 
 .main-header ul li a {
-    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,6 +76,7 @@ img {
     text-transform: uppercase;
     font-size: 14px;
     padding: 0px 6px !important;
+    padding-bottom: 5px;
 }
 
 .main-header ul li a.nav-link.active {
@@ -127,7 +127,7 @@ img {
 
 .main-header .search-icon i {
     margin-left: 0px;
-    font-size: 17px;
+    font-size: 26px;
 }
 
 .srarch-form input {
