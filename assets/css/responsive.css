@@ -86,7 +86,7 @@
     }
 
     .offcanvas-body {
-        padding: 20px 0 0 0;
+        padding: 20px 10px;
     }
 
     .main-header .offcanvas {
@@ -168,6 +168,10 @@
         padding: 0px;
         margin: 16px 0px;
     }
+
+    .keep-in-touch-subscribe-form{
+        display: none;
+    }
 }
 
 @media(max-width:767.98px) {
@@ -180,7 +184,7 @@
     }
 
     .blog-detail .discription h2 {
-        font-size: 18px;
+        font-size: 21px;
         line-height: normal;
     }
 
@@ -207,11 +211,11 @@
     }
 
     .blog-detail .title {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .blog-detail {
-        margin: 42px 0;
+        margin: 20px 0;
     }
 
     .blog-detail .discription p {
@@ -224,10 +228,6 @@
 
     .blog-detail .tags {
         margin: 24px 0;
-    }
-
-    .blog-detail .share-comment {
-        margin-bottom: 24px;
     }
 
     .blog-detail .share-comment .comment::after {
@@ -347,7 +347,7 @@
     }
 
     .other-detail {
-        margin-top: 0px;
+        margin-top: 25px;
     }
 
     .blog-detail .blog-search {
@@ -361,6 +361,28 @@
 
     .srarch-form {
         max-width: 274px;
+    }
+
+    .main-header-ul>ul {
+        margin-left: 0;
+    }
+
+    .footer-main-container .social-media-div {
+        gap: 15px;
+        margin: 0 0 14px 0;
+    }
+
+    .footer-main-container .social-media-div i {
+        font-size: 28px;
+    }
+
+    .blog-detail .title {
+        margin-top: 8px;
+    }
+
+    .blog-detail .social-icon {
+        font-size: 17px;
+        padding: 0px 21px;
     }
 }
 
