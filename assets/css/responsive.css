@@ -152,6 +152,10 @@
         width: 100%;
     }
 
+    .pagination-and-blog-card-div{
+        width: 100%;
+    }
+
     .keep-in-touch .subscribe-form form input{
         width: 100%;
     }
@@ -180,6 +184,11 @@
 
     .srarch-form {
         top: 6px;
+    }
+
+    .blog-pagination {
+        width: fit-content;
+        margin: auto;
     }
 }
 
@@ -314,7 +323,7 @@
     }
 
     .all-blog-section {
-        padding: 40px 0;
+        padding: 20px 0;
     }
 
     .all-blog-card {
@@ -397,6 +406,14 @@
     .main-header .search-icon i {
         margin-left: 0px;
         font-size: 18px;
+    }
+
+    .blog-detail .right-squer-ads {
+        margin-bottom: 30px;
+    }
+
+    .blog-detail .keep-in-touch {
+        margin-bottom: 30px;
     }
 }
 
