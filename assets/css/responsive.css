@@ -1,424 +1,424 @@
-@media(max-width:1199.98px) {
-    .container {
-        max-width: 960px;
+    @media(max-width:1199.98px) {
+        .container {
+            max-width: 960px;
+        }
+
+        .blog-right-site-card {
+            max-width: 303px;
+            width: 100%;
+        }
+
+        .site-logo-div {
+            max-width: 240px;
+        }
+
+        .main-header ul li a {
+            font-size: 13px;
+        }
+
+        .blog-detail .small-card .post-img {
+            min-width: 80px;
+        }
+
+        .other-detail {
+            width: 40%;
+        }
+
+    }
+
+    @media(max-width:991.98px) {
+        .container {
+            max-width: 720px;
+        }
+
+        .site-logo-div {
+            max-width: 230px;
+        }
+
+        .main-header ul li a {
+            height: 40px;
+            justify-content: start;
+        }
+
+        .blog-detail {
+            flex-direction: column;
+        }
+
+        .blog-detail .main-detail {
+            padding: 0;
+            width: 100%;
+        }
+
+        .blog-crad {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .blog-right-site-card {
+            max-width: 100%;
+            width: 100%;
+            flex-direction: row;
+        }
+
+        .other-detail {
+            width: 100%;
+            margin-top: 48px;
+        }
+
+        .slider-card-heading a {
+            font-size: 18px;
+        }
+
+        .blog-card-div h2 {
+            line-height: 18px;
+        }
+
+        .footer-social-media-div ul li a span {
+            display: none;
+        }
+
+        .footer-form-title h4 {
+            font-size: 28px;
+        }
+
+        .footer-form-title p {
+            margin-bottom: 15px;
+        }
+
+        .offcanvas-body {
+            padding: 20px 10px;
+        }
+
+        .main-header .offcanvas {
+            width: 277px;
+        }
+
+        .main-header ul li:hover ul.dropdown-menu {
+            border-radius: 0;
+            left: 0px;
+            width: 100%;
+        }
+
+        .all-blog-section {
+            padding: 40px 0;
+        }
+
+        .lates-blog-slider .swiper-button-next,
+        .lates-blog-slider .swiper-button-prev {
+            opacity: 0.7;
+        }
+
+        .main-header .offcanvas-backdrop.show {
+            opacity: 0.75;
+        }
+
+        .mobile-responcive-logo {
+            display: block;
+            height: 50px;
+            width: 90%;
+        }
+
+        .main-header .offcanvas-header {
+            padding: 0;
+        }
+
+        .main-header button.btn-close {
+            position: absolute;
+            top: 32px;
+            left: 290px;
+            color: black;
+            opacity: 1;
+            background-color: white;
+            border-radius: 100%;
+            font-size: 12px;
+            background-image: none;
+            font-weight: 700;
+        }
+
+        .main-header .toggle-btn {
+            box-shadow: none;
+            border: none;
+            font-size: 16px;
+            color: black;
+            opacity: 1;
+            margin-left: auto;
+        }
+
+        .main-header .navbar-nav {
+            padding-top: 10px;
+        }
+
+        .all-blog-card {
+            width: 100%;
+        }
+
+        .pagination-and-blog-card-div{
+            width: 100%;
+        }
+
+        .keep-in-touch .subscribe-form form input{
+            width: 100%;
+        }
+
+        .keep-in-touch .input-emai-div{
+            max-width: 100%;
+        }
+
+        .social-media-div ul {
+            padding: 0;
+        }
+
+        .content-footer ul {
+            padding: 0px;
+            margin: 16px 0px;
+        }
+
+        .keep-in-touch-subscribe-form{
+            display: none;
+        }
+
+        .navbar-expand-lg .navbar-nav .dropdown-menu {
+            position: absolute;
+            top: 32px;
+        }
+
+        .srarch-form {
+            top: 6px;
+        }
+
+        .blog-pagination {
+            width: fit-content;
+            margin: auto;
+        }
+    }
+
+    @media(max-width:767.98px) {
+        .container {
+            max-width: 540px;
+        }
+
+        .blog-detail .title {
+            font-size: 24px;
+        }
+
+        .blog-detail .discription h2 {
+            font-size: 21px;
+            line-height: normal;
+        }
+
+        .blog-detail .blog-author img {
+            width: 72px;
+        }
+
+        .blog-detail .blog-author p {
+            line-height: normal;
+        }
+
+        .blog-detail .blog-author .author-name {
+            margin-bottom: 8px;
+        }
+
+        .posts-leave-comment .form-group {
+            margin-bottom: 18px;
+        }
+    }
+
+    @media(max-width:575.98px) {
+        .container {
+            max-width: 100%;
+        }
+
+        .blog-detail .title {
+            font-size: 30px;
+        }
+
+        .blog-detail {
+            margin: 20px 0;
+        }
+
+        .blog-detail .discription p {
+            line-height: 130%;
+        }
+
+        .blog-detail .bg-border p {
+            font-size: 14px;
+        }
+
+        .blog-detail .tags {
+            margin: 24px 0;
+        }
+
+        .blog-detail .share-comment .comment::after {
+            margin: 4px 10px 0 10px;
+        }
+
+        .blog-detail .blog-author {
+            flex-direction: column;
+        }
+
+        .blog-detail .next-prev-post {
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .blog-detail .next-prev-post div {
+            width: 100%;
+            text-align: center !important;
+        }
+
+        .blog-detail .bg-border {
+            border-left: 2px solid var(--primery);
+            padding: 10px 12px 10px 12px;
+        }
+
+        .blog-sub-div h3 a {
+            font-size: 13px;
+        }
+
+        .footer-form-title p {
+            font-size: 14px;
+        }
+
+        .container {
+            max-width: 100%;
+        }
+
+        .slider-card-heading a {
+            font-size: 16px;
+        }
+
+        .blog-card-div {
+            height: 270px;
+        }
+
+        .blog-sub-div {
+            height: 200px;
+        }
+
+        .blog-sub-div h3 {
+            line-height: 15px;
+        }
+
+        .footer-form-title {
+            padding: 40px 12px;
+            background-color: #f7f7f7;
+        }
+
+        form.subscribe-form {
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .subscribe-form div {
+            max-width: 100%;
+            width: 100%;
+        }
+
+        form .btn-primary {
+            width: 100%;
+        }
+
+        .subscribe-form {
+            gap: 20px;
+        }
+
+        .all-blog-section {
+            padding: 20px 0;
+        }
+
+        .all-blog-card {
+            grid-template-columns: repeat(1, 5fr);
+            gap: 30px;
+        }
+
+        .blog-div {
+            max-width: 100%;
+        }
+
+        .lates-blog-slider .swiper-button-next,
+        .lates-blog-slider .swiper-button-prev {
+            width: 30px;
+            height: 30px;
+        }
+
+        .lates-blog-slider .swiper-button-next i,
+        .lates-blog-slider .swiper-button-prev i {
+            font-size: 10px;
+            font-weight: 700;
+        }
+
+        .blog-sub-div h3 {
+            padding: 0 11px;
+        }
+
+        .main-header {
+            padding: 20px 12px;
+        }
+
+        .footer-logo {
+            max-width: 347px;
+            height: auto;
+        }
+
+        .blog-pagination {
+            padding-top: 30px;
+        }
+
+        .other-detail {
+            margin-top: 25px;
+        }
+
+        .blog-detail .blog-search {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .blog-page-main-div {
+            gap: 26px;
+        }
+
+        .srarch-form {
+            max-width: 274px;
+        }
+
+        .main-header-ul>ul {
+            margin-left: 0;
+        }
+
+        .footer-main-container .social-media-div {
+            gap: 15px;
+            margin: 0 0 14px 0;
+        }
+
+        .footer-main-container .social-media-div i {
+            font-size: 28px;
+        }
+
+        .blog-detail .title {
+            margin-top: 8px;
+        }
+
+        .blog-detail .social-icon {
+            font-size: 17px;
+            padding: 0px 21px;
+        }
+
+        .main-header .search-icon i {
+            margin-left: 0px;
+            font-size: 18px;
+        }
+
+        .blog-detail .right-squer-ads {
+            margin-bottom: 30px;
+        }
+
+        .blog-detail .keep-in-touch {
+            margin-bottom: 30px;
+        }
+    }
+
+    @media(max-width:360px){
+        .site-logo-div {
+            max-width: 215px;
+        }
     }
-
-    .blog-right-site-card {
-        max-width: 303px;
-        width: 100%;
-    }
-
-    .site-logo-div {
-        max-width: 240px;
-    }
-
-    .main-header ul li a {
-        font-size: 13px;
-    }
-
-    .blog-detail .small-card .post-img {
-        min-width: 80px;
-    }
-
-    .other-detail {
-        width: 40%;
-    }
-
-}
-
-@media(max-width:991.98px) {
-    .container {
-        max-width: 720px;
-    }
-
-    .site-logo-div {
-        max-width: 230px;
-    }
-
-    .main-header ul li a {
-        height: 40px;
-        justify-content: start;
-    }
-
-    .blog-detail {
-        flex-direction: column;
-    }
-
-    .blog-detail .main-detail {
-        padding: 0;
-        width: 100%;
-    }
-
-    .blog-crad {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .blog-right-site-card {
-        max-width: 100%;
-        width: 100%;
-        flex-direction: row;
-    }
-
-    .other-detail {
-        width: 100%;
-        margin-top: 48px;
-    }
-
-    .slider-card-heading a {
-        font-size: 18px;
-    }
-
-    .blog-card-div h2 {
-        line-height: 18px;
-    }
-
-    .footer-social-media-div ul li a span {
-        display: none;
-    }
-
-    .footer-form-title h4 {
-        font-size: 28px;
-    }
-
-    .footer-form-title p {
-        margin-bottom: 15px;
-    }
-
-    .offcanvas-body {
-        padding: 20px 10px;
-    }
-
-    .main-header .offcanvas {
-        width: 277px;
-    }
-
-    .main-header ul li:hover ul.dropdown-menu {
-        border-radius: 0;
-        left: 0px;
-        width: 100%;
-    }
-
-    .all-blog-section {
-        padding: 40px 0;
-    }
-
-    .lates-blog-slider .swiper-button-next,
-    .lates-blog-slider .swiper-button-prev {
-        opacity: 0.7;
-    }
-
-    .main-header .offcanvas-backdrop.show {
-        opacity: 0.75;
-    }
-
-    .mobile-responcive-logo {
-        display: block;
-        height: 50px;
-        width: 90%;
-    }
-
-    .main-header .offcanvas-header {
-        padding: 0;
-    }
-
-    .main-header button.btn-close {
-        position: absolute;
-        top: 32px;
-        left: 290px;
-        color: black;
-        opacity: 1;
-        background-color: white;
-        border-radius: 100%;
-        font-size: 12px;
-        background-image: none;
-        font-weight: 700;
-    }
-
-    .main-header .toggle-btn {
-        box-shadow: none;
-        border: none;
-        font-size: 16px;
-        color: black;
-        opacity: 1;
-        margin-left: auto;
-    }
-
-    .main-header .navbar-nav {
-        padding-top: 10px;
-    }
-
-    .all-blog-card {
-        width: 100%;
-    }
-
-    .pagination-and-blog-card-div{
-        width: 100%;
-    }
-
-    .keep-in-touch .subscribe-form form input{
-        width: 100%;
-    }
-
-    .keep-in-touch .input-emai-div{
-        max-width: 100%;
-    }
-
-    .social-media-div ul {
-        padding: 0;
-    }
-
-    .content-footer ul {
-        padding: 0px;
-        margin: 16px 0px;
-    }
-
-    .keep-in-touch-subscribe-form{
-        display: none;
-    }
-
-    .navbar-expand-lg .navbar-nav .dropdown-menu {
-        position: absolute;
-        top: 32px;
-    }
-
-    .srarch-form {
-        top: 6px;
-    }
-
-    .blog-pagination {
-        width: fit-content;
-        margin: auto;
-    }
-}
-
-@media(max-width:767.98px) {
-    .container {
-        max-width: 540px;
-    }
-
-    .blog-detail .title {
-        font-size: 24px;
-    }
-
-    .blog-detail .discription h2 {
-        font-size: 21px;
-        line-height: normal;
-    }
-
-    .blog-detail .blog-author img {
-        width: 72px;
-    }
-
-    .blog-detail .blog-author p {
-        line-height: normal;
-    }
-
-    .blog-detail .blog-author .author-name {
-        margin-bottom: 8px;
-    }
-
-    .posts-leave-comment .form-group {
-        margin-bottom: 18px;
-    }
-}
-
-@media(max-width:575.98px) {
-    .container {
-        max-width: 100%;
-    }
-
-    .blog-detail .title {
-        font-size: 30px;
-    }
-
-    .blog-detail {
-        margin: 20px 0;
-    }
-
-    .blog-detail .discription p {
-        line-height: 130%;
-    }
-
-    .blog-detail .bg-border p {
-        font-size: 14px;
-    }
-
-    .blog-detail .tags {
-        margin: 24px 0;
-    }
-
-    .blog-detail .share-comment .comment::after {
-        margin: 4px 10px 0 10px;
-    }
-
-    .blog-detail .blog-author {
-        flex-direction: column;
-    }
-
-    .blog-detail .next-prev-post {
-        flex-direction: column;
-        gap: 24px;
-    }
-
-    .blog-detail .next-prev-post div {
-        width: 100%;
-        text-align: center !important;
-    }
-
-    .blog-detail .bg-border {
-        border-left: 2px solid var(--primery);
-        padding: 10px 12px 10px 12px;
-    }
-
-    .blog-sub-div h3 a {
-        font-size: 13px;
-    }
-
-    .footer-form-title p {
-        font-size: 14px;
-    }
-
-    .container {
-        max-width: 100%;
-    }
-
-    .slider-card-heading a {
-        font-size: 16px;
-    }
-
-    .blog-card-div {
-        height: 270px;
-    }
-
-    .blog-sub-div {
-        height: 200px;
-    }
-
-    .blog-sub-div h3 {
-        line-height: 15px;
-    }
-
-    .footer-form-title {
-        padding: 40px 12px;
-        background-color: #f7f7f7;
-    }
-
-    form.subscribe-form {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .subscribe-form div {
-        max-width: 100%;
-        width: 100%;
-    }
-
-    form .btn-primary {
-        width: 100%;
-    }
-
-    .subscribe-form {
-        gap: 20px;
-    }
-
-    .all-blog-section {
-        padding: 20px 0;
-    }
-
-    .all-blog-card {
-        grid-template-columns: repeat(1, 5fr);
-        gap: 30px;
-    }
-
-    .blog-div {
-        max-width: 100%;
-    }
-
-    .lates-blog-slider .swiper-button-next,
-    .lates-blog-slider .swiper-button-prev {
-        width: 30px;
-        height: 30px;
-    }
-
-    .lates-blog-slider .swiper-button-next i,
-    .lates-blog-slider .swiper-button-prev i {
-        font-size: 10px;
-        font-weight: 700;
-    }
-
-    .blog-sub-div h3 {
-        padding: 0 11px;
-    }
-
-    .main-header {
-        padding: 20px 12px;
-    }
-
-    .footer-logo {
-        max-width: 347px;
-        height: auto;
-    }
-
-    .blog-pagination {
-        padding-top: 30px;
-    }
-
-    .other-detail {
-        margin-top: 25px;
-    }
-
-    .blog-detail .blog-search {
-        position: relative;
-        margin-bottom: 30px;
-    }
-
-    .blog-page-main-div {
-        gap: 26px;
-    }
-
-    .srarch-form {
-        max-width: 274px;
-    }
-
-    .main-header-ul>ul {
-        margin-left: 0;
-    }
-
-    .footer-main-container .social-media-div {
-        gap: 15px;
-        margin: 0 0 14px 0;
-    }
-
-    .footer-main-container .social-media-div i {
-        font-size: 28px;
-    }
-
-    .blog-detail .title {
-        margin-top: 8px;
-    }
-
-    .blog-detail .social-icon {
-        font-size: 17px;
-        padding: 0px 21px;
-    }
-
-    .main-header .search-icon i {
-        margin-left: 0px;
-        font-size: 18px;
-    }
-
-    .blog-detail .right-squer-ads {
-        margin-bottom: 30px;
-    }
-
-    .blog-detail .keep-in-touch {
-        margin-bottom: 30px;
-    }
-}
-
-@media(max-width:360px){
-    .site-logo-div {
-        max-width: 215px;
-    }
-}
